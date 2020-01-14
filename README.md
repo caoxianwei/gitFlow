@@ -13,6 +13,8 @@ git checkout master
 git branch feature/mywork
 git checkout feature/mywork
 ```
+将master分支上新的提交同步过来
+git pull --rebase origin master
 
 * 在自己的功能分支上修改代码，每一个小功能提交一次，最小单位为一天
 ```
@@ -88,3 +90,16 @@ git push origin R2.3.1
 * git push origin tagName 推送名字为tagName的标签
 * git tag -d tagName  删除名字为tagName的标签
 * git push origin :refs/tags/tagName  删除名字为tagName的远程标签
+
+git branch -d    删除分支
+git push origin --delete   删除远程分支
+迁移git：git remote set-url origin git@52.220.212.168:payweb/newItpay-agency-front.git
+git push -u origin --all
+git push -u origin --tags
+移除git缓存：
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+git远程仓库回退版本
+2.回退本地版本库 git reset commit_id
+3.将回退后的版本强制推送到远程仓库。git push -f origin master
