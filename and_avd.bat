@@ -1,0 +1,1 @@
+C:\Users\Administrator\AppData\Local\Android\sdk\emulator\emulator.exe -netdelay none -netspeed full -avd Pixel_3_API_29
