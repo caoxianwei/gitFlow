@@ -12,6 +12,7 @@
 git checkout master
 git branch feature/mywork
 git checkout feature/mywork
+==（git checkout -b feature/mywork）
 ```
 将master分支上新的提交同步过来
 git pull --rebase origin master
