@@ -104,3 +104,10 @@ git commit -m 'update .gitignore'
 git远程仓库回退版本
 2.回退本地版本库 git reset commit_id
 3.将回退后的版本强制推送到远程仓库。git push -f origin master
+
+一、开发分支（dev）上的代码达到上线的标准后，合并到 master 分支
+git checkout dev
+git pull
+git checkout master
+git merge dev
+git push -u origin master
