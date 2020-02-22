@@ -1,0 +1,8 @@
+
+GET https://apiblog.jspang.com/default/getArticleList  HTTP/1.1
+
+content-type: application/json
+
+{
+    "data":"胖哥是最帅的"
+}
