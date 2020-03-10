@@ -1,0 +1,24 @@
+
+POST http://huanqiu-web.bwhou2028.com/api/site/game/balance/v1/getGrpcBalance  HTTP/1.1
+Cookie: ser = a03
+Cookie: tb-token = HY_9H0OKtUxWs6OMuZWJn7BMGkZ4yyIlWYbAw9HtlpvvJZYCVvwwhbSJycizAimGDhA
+Cookie: localUserInfo = %7B%22birthday%22%3A%22%22%2C%22centerMoney%22%3A%220.00%22%2C%22tagId%22%3A%22%22%2C%22topId%22%3A%22%22%2C%22siteName%22%3A%22%u73AF%u7403%u5A31%u4E50%22%2C%22lastLoginIp%22%3A%22218.189.125.130%22%2C%22createdAt%22%3A%222020-02-05%2015%3A15%3A27%22%2C%22id%22%3A2019122699%2C%22email%22%3A%22%22%2C%22updatedAt%22%3A%222020-03-06%2020%3A31%3A16%22%2C%22qq%22%3A%22%22%2C%22registerIp%22%3A%22218.189.125.130%22%2C%22provinces%22%3A%22%22%2C%22address%22%3A%22%22%2C%22nickName%22%3A%22%22%2C%22sex%22%3A%220%22%2C%22wechat%22%3A%22%22%2C%22avatar%22%3A%22http%3A//img.bwhou2020.com/1576480523173011.png%22%2C%22lastLoginTime%22%3A%222020-03-06%2020%3A31%3A17%22%2C%22realName%22%3A%22%22%2C%22phone%22%3A%22%22%2C%22lastDays%22%3A35%2C%22grade%22%3A0%2C%22name%22%3A%22testhq1112%22%2C%22siteId%22%3A%22%22%2C%22status%22%3A%22%22%7D
+Content-Type: application/json
+Host: huanqiu-web.bwhou2028.com
+Origin: http://huanqiu-web.bwhou2028.com
+Referer: http://huanqiu-web.bwhou2028.com/app/myCenter/withdrawals
+TB-CLIENT-TYPE: web
+TB-SITE-ID: 8
+TB-TOKEN: HY_9H0OKtUxWs6OMuZWJn7BMGkZ4yyIlWYbAw9HtlpvvJZYCVvwwhbSJycizAimGDhA
+TB-UUID: DF6392FF-A90C-4ED2-986F-B8C7319C8A2B
+TB-VERSION: v1.0.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+X-KK-APPKEY: 2ZYAq3AVZL
+X-KK-NONCE: z9k09ik0rQNKQduD
+X-KK-SIGN: 99cd9bdab7859f603d72cd072088778fc12472a6
+X-KK-SV: 1
+X-KK-TIMESTAMP: 1583823447
+
+{
+    "venueEnName": "IMDJ"
+}
