@@ -1,7 +1,9 @@
 
-GET https://apiblog.jspang.com/default/getArticleList  HTTP/1.1
-content-type: application/json
+POST http://220.228.174.200:20086/getPhoneCode  HTTP/1.1
+Content-Type: application/json
+TB-SITE-ID: 4
 
 {
-    "data":"胖哥是最帅的"
+ "phone":"15178473141",                         
+ "appName":"kkcloud-member-baseapi"
 }
