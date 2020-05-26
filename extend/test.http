@@ -1,9 +1,9 @@
 
 POST http://220.228.174.200:20086/getPhoneCode  HTTP/1.1
 Content-Type: application/json
-TB-SITE-ID: 4
+TB-SITE-ID: 5
 
 {
- "phone":"15178473141",                         
+ "phone":"5232@qq.com",                         
  "appName":"kkcloud-member-baseapi"
 }

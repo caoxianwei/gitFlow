@@ -111,3 +111,7 @@ git pull
 git checkout master
 git merge dev
 git push -u origin master
+
+删除远程仓库的错误提交
+git reset --hard HEAD~1
+git push --force
