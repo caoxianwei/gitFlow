@@ -118,3 +118,5 @@ git push --force
 
 git log 命令可以显示所有提交过的版本信息
 git reflog 可以查看所有分支的所有操作记录
+git reflog show feature/mywork
+git reflog --data=local | grep feature/mywork
